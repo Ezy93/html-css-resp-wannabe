@@ -71,3 +71,37 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px){
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .row{
+        width: 100vw;
+        margin-top: 50px;
+      }
+
+      #lezioni{
+        background-color: #f2f2cd;
+        padding-bottom: 10px;
+      }
+
+      #lezioni .row>.left,
+      #lezioni .row>.right{
+        width: 100%;
+        float: none;
+      }
+
+      #lezioni .row>.left img{
+        width: 150px;
+        height: 147px;
+      }
+      
+      #lezioni .row>.right img{
+        width: 150px;
+        height: 101px;
+      }
+}
